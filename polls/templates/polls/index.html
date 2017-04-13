@@ -1,3 +1,8 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/styles.css' %}" />
+
+<h1>Please select the poll you would like to vote on</h1>
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
