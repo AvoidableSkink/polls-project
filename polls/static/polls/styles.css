@@ -12,6 +12,7 @@ h1 {
     font-family: Copperplate Gothic Light;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 0px;
     font-size: 65px;
     color: salmon;
 }
@@ -32,4 +33,10 @@ body {
 #main {
     background-color: white;
     box-shadow: 0 0 75px 50px white;
+}
+
+.inside {
+    text-align-last: left;
+    color: Turquoise;
+    font-size: 25px;
 }
